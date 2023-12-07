@@ -1,0 +1,38 @@
+
+.form {
+    width: 40vh;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+}
+
+.text-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.logo {
+    margin-top: 80px;
+}
+
+.btn-style {
+    background-color:#0dcaf0;
+    border: none;
+    color: black ;
+}
+
+.forgot-credentials {
+    margin-top: 20px;
+}
+
+.forgot-credentials a {
+    color: #20272b;
+}
+
+.create-login a {
+    color: #0dcaf0;
+}
