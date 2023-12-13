@@ -1,9 +1,8 @@
-
 .form {
-    width: 40vh;
+    width: 100%;
     text-align: center;
     align-items: center;
-    position: fixed;
+    position: relative; 
 }
 
 .text-container {
@@ -17,7 +16,23 @@
 
 .logo {
     margin-top: 80px;
+    width: 350px;
 }
+
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column-reverse; 
+    }
+
+    .col-md-6 {
+        text-align: center; 
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+}
+
 
 .btn-style {
     background-color:#0dcaf0;
